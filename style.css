@@ -39,7 +39,6 @@ body {
 	color: #fff;
 	font-family: arial;
 	font-size: 16px;
-	background-image: url("images/drops.jpg")
 }
 
 #content {
@@ -51,14 +50,14 @@ body {
 #left_article {
 	background-color: #bc4b4b;
 	float; left;
-	padding: 20px;
+	padding-top: 30px;
 	margin-top: 20px;
+	font-size: 30px;
 }
 
 #sidebar {
 	background-color: #bc4b4b;
 	float: right;
-	padding-bottom: 839px;
-	padding-left: 200px;
+	padding-left: 20px;
 }
 
