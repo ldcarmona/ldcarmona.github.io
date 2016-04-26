@@ -69,10 +69,10 @@ body {
 #body_art {
 	background-color: #000066;
 	padding-top: 5px;
-	padding-bottom: 7%;
+	padding-bottom: -1%;
 }
 
-#left_article, #left_article_art {
+#left_article {
 	background-color: #330000;
 	float; left;
 	padding-top: 0px;
@@ -83,11 +83,19 @@ body {
 	text-align: left;
 }
 
+#left_article_art {
+	background-color: #330000;
+	float; left;
+	font-size: 30px;
+	font-style: times;
+	text-align: left;
+}
+
 #indent {
 	text-indent: 20%;
 }
 
-#left_article_2, #left_article_2_art {
+#left_article_2 {
 	background-color: #000;
 	font-style: times;
 	font-size: 30px;
@@ -99,6 +107,7 @@ body {
 	float: right;
 	display: block;
 	padding-left: 20px;
+	padding-top: 20px;
 }
 
  #sidebar_art {
