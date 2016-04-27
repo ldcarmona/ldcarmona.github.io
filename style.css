@@ -3,7 +3,6 @@ html,
 #container {
 	min-height: 100%;
 	height: 100%;
-	position: relative;
 	background-color: #000;
 }
 #header {
@@ -11,12 +10,38 @@ html,
 	padding-bottom: 5px;
 }
 
- #header_art {
+#header_art {
  	background-color: #0000FF;
-	padding-bottom: 10%;
- }
+ 	padding-bottom: 5px;
+ 	padding-top: 10px;
+}
+
+#header_surrealists {
+	background-color: #00FF00;
+	padding-bottom: 5px;
+}
+
+#header_howto {
+	background-color: #FFFF00;
+	padding-bottom: 5px; 
+}
 
 #logo {
+	margin-bottom: -9px;
+	height: 130px;
+}
+
+#logo_art {
+	margin-bottom: -9px;
+	height: 130px;
+}
+
+#logo_surrealists {
+	margin-bottom: -9px;
+	height: 130px;
+}
+
+#logo_howto{
 	margin-bottom: -9px;
 	height: 130px;
 }
@@ -30,6 +55,14 @@ html,
 
 .nav_ul_art {
 	background-color: #000066;
+}
+
+.nav_ul_surrealists {
+	background-color: #00FF00;
+}
+
+.nav_ul_howto {
+	background-color: #FFFF00;
 }
 
 /* unvisited link */
@@ -58,6 +91,7 @@ body {
 	padding: 0;
 	height: 100%;
 	min-height: 100%;
+	font-color: #fff;
 }
 
 #body {
@@ -66,11 +100,23 @@ body {
 	font-size: 16px;
 }
 
-#body_art {
-	background-color: #000066;
-	padding-top: 5px;
-	padding-bottom: -1%;
+.body_art {
 	color: #fff;
+}
+
+.dali {
+	color: #fff;
+	text-align: center;
+}
+
+.kush {
+	color: #fff;
+	text-align: center;
+}
+
+.tichenor {
+	color: #fff;
+	text-align: center;
 }
 
 #left_article {
@@ -84,11 +130,23 @@ body {
 	text-align: left;
 }
 
-.left_article_art {
-	font-size: 15px;
-	font-style: times;
+.first {
 	text-align: center;
-	background-color: #000;
+	float: right;
+	margin-right: 5%;
+}
+
+.second {
+	text-align: center;
+	margin-left: 15px;
+}
+
+.third {
+	text-align: center;
+}
+
+.fourth{
+	text-align: center;
 }
 
 #indent {
@@ -110,28 +168,38 @@ body {
 	padding-top: 20px;
 }
 
- #sidebar_art {
- 	background-color: #000066;
-	display: block;
-	padding-bottom: 120%;
-	padding-left: 15%;
-	float: right;
- }
-
 #footer {
 	position: absolute;
    	bottom: -60%;
    	width: 100%;
   	height: 150px;
  	background-color: #330000;
- 	color: #000;
+ 	color: #fff;
 }
 
 #footer_art {
 	background-color: #000066;
-	position: absolute;
-   	bottom: -280%;
+	position: bottom;
+   	bottom: -195%;
    	width: 100%;
   	height: 150px;
- 	color: #000;
+ 	color: #fff;
+}
+
+#footer_surrealists {
+	background-color: #00FF00;
+	position: bottom;
+	bottom: -195%;
+	width: 100%;
+	height: 150px;
+	color: #fff;
+}
+
+#footer_howto {
+	background-color: #FFFF00;
+	position: absolute;
+	bottom: -195%;
+	width: 100%;
+	height: 150px;
+	color: #fff;
 }
